@@ -1,0 +1,20 @@
+# ==== Compilación y ejecutables ====
+*.o          # Objetos compilados
+*.out        # Ejecutables genéricos (ej: a.out)
+*.exe        # Ejecutables en Windows (si también compilas ahí)
+*.so         # Bibliotecas dinámicas
+*.a          # Bibliotecas estáticas
+*.dll        # Bibliotecas de Windows
+
+# ==== VS Code ====
+.vscode/     # Configuraciones locales (excepto si compartes settings.json)
+*.code-workspace # Archivos de workspace de VS Code
+
+# ==== WSL y sistema ====
+*.swp        # Archivos temporales de Vim/Neovim
+*.~          # Archivos de respaldo
+.DS_Store    # Metadatos de macOS (si usas WSL en Mac)
+Thumbs.db    # Metadatos de Windows
+
+# ==== Git ====
+*.orig       # Archivos de conflicto de Git (merge/rebase)
